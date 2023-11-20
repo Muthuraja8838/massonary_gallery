@@ -1,0 +1,45 @@
+/* Responsive*/
+
+@media screen and (max-width: 991px) {
+  .row {
+    width: 100%;
+    columns: 3;
+  }
+  .column {
+    width: 250px;
+    max-width: 100%;
+  }
+  .close {
+    top: -10px;
+    height: 100%;
+    padding: 0px 0px;
+  }
+  .close {
+    position: absolute;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    width: 100%;
+    columns: 1;
+    padding: 10px;
+  }
+  .column {
+    width: 100%;
+    max-width: 100%;
+  }
+  .close {
+    top: -10px;
+    height: 100%;
+    padding: 0px 0px;
+  }
+}
